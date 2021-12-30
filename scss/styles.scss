@@ -1,0 +1,53 @@
+// Import Bootstrap
+@use "custom";
+
+// Variables
+$trade: #14408a;
+
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+.merge {
+  background-color: $trade;
+  height: 35px;
+}
+.call-in {
+  margin-left: 500px;
+  text-decoration: none;
+}
+.callus {
+  text-decoration: none;
+}
+.nav-tex {
+  font-size: 22px;
+}
+.bg-trade {
+  background-color: $trade;
+}
+.mile-stn {
+  font-size: 21px;
+}
+.mile-hd {
+  font-size: 21px;
+}
+.psize {
+  font-size: 14px;
+}
+.hello {
+  text-align: cente;
+}
+.piping {
+  color: #0645ad;
+}
