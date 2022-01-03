@@ -1,4 +1,8 @@
-# Start the BUILD COMMAND
+# Start the BUILD
+
+npm run build
+
+# Open-Source (ISC)
 
 This is a Open-Source Project licensed under the ISC License
 
