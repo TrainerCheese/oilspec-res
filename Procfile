@@ -1,1 +1,1 @@
-worker: node build.js
+worker: nodemon build.js
