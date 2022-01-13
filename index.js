@@ -38,6 +38,20 @@ app.get("/contact", (req, res) => {
   res.render(path.join(__dirname, "views/contact.ejs"));
 });
 
+// API
+app.get("/api", (req, res) => {
+  res.json({
+    Name: `api service`,
+  });
+});
+
+app.get("/api/:id", (req, res) => {
+  res.json({
+    Name: "API SERVICE",
+    ID: `${Date()}${req.params.id}`,
+  });
+});
+
 app.use(function (req, res) {
   res.type("text/html");
   res.status(404);
