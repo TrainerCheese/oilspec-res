@@ -11143,7 +11143,11 @@ textarea.form-control-lg {
 }
 
 .piping {
-  color: #0645ad;
+  color: #1a0dab;
+}
+
+.bg-prim {
+  background-color: #ff0104;
 }
 
 /*# sourceMappingURL=styles.css.map */

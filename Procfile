@@ -1,1 +1,1 @@
-worker: nodemon build.js
+web: nodemon start
