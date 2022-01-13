@@ -1,6 +1,10 @@
-# Start the BUILD
+# Start the development BUILD
 
 npm run build
+
+# Start the Final Build
+
+npm start
 
 # Open-Source (ISC)
 

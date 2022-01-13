@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oilspec</title>
+    <link rel="icon" href="public/ico/favicon.ico?v=1.1" />
+    <!--Bootstrap style sheet-->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="bg-light">
+    <!--Navbar-->
+    <%-include('./components/_navbar.ejs')%>
+    <!--Banner-->
+    <img src="public/design-banner.jpg" alt="" class="img-res w-100" />
+    <div class="container">
+      <h1 class="h1 text-center mt-3">Design Engineering Services</h1>
+      <hr />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <img class="des-img w-100 -5 w-50" src="public/1.jpg" alt="" />
+        </div>
+        <div class="col-md bg-trade des w-100">
+          <div class="container-fluid text-light">
+            <p class="h3 mt-3">Piping</p>
+            <hr />
+            <div class="container">
+              <ul>
+                <li class="lead">
+                  <strong>
+                    Design , Drafting, General Arrangement, Isometric.</strong
+                  >
+                </li>
+                <li class="lead h4"><strong> Piping Specification</strong></li>
+                <li class="lead">
+                  <strong> Pipe Support Design & Engineering</strong>
+                </li>
+                <li class="lead">
+                  <strong>Pipe Stress Analysis using CAESAR-II </strong>
+                </li>
+                <li class="lead"><strong>MTO & BMTO Preparation </strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md">
+          <img class="des-img w-100 -5 w-50" src="public/2.jpg" alt="" />
+        </div>
+        <div class="col-md bg-trade des w-100">
+          <div class="container-fluid mt-5 text-light">
+            <p class="h3 mt-3">Structural</p>
+            <hr />
+            <div class="container mt-4">
+              <ul>
+                <li class="lead">
+                  <strong> Design and Detailing.</strong>
+                </li>
+                <li class="lead h4">
+                  <strong> CG and Lifting calculation</strong>
+                </li>
+                <li class="lead">
+                  <strong> Welding connection Detail </strong>
+                </li>
+                <li class="lead">
+                  <strong>MTO Preparation </strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Address-->
+    <%-include('./components/_address.ejs')%>
+    <!--Copyright-->
+    <%-include('./components/_copyright.ejs')%>
+    <!--Bootstrap's script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
